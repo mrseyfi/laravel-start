@@ -34,3 +34,7 @@ Route::get('/user/{id}', function ($id) {
 Route::post('/send', function () {
     return "ok";
 });
+
+Route::get('/test', function () {
+    return view('about');
+});
